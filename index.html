@@ -3,16 +3,67 @@
 <head>
 <meta charset="utf-8">
 <title> Five-in-a-row python game</title>
+<style type="text/css">
+body {
+  padding-left:20px;
+  padding-right:20px;
+}
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing:1px;
+    color:rgb(8, 8, 71);
+  }
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(8, 8, 71);
+  }
+p {
+  color:rgb(71, 126, 230);
+}
+#downloadbox{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  color:rgb(13, 58, 143);
+  background-color:#EE872A;
+  border-radius:15px;
+  border:5px solid #EE872A;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
+}
+#intro{
+  padding-top:20px;
+  font-family:'Times New Roman', Times, serif;
+  font-size:17px;
+}
+#features {
+  font-family:'Times New Roman', Times, serif;
+  font-size:17px;
+}
+#howto {
+  font-family:'Times New Roman', Times, serif;
+  font-size:17px;
+}
+#email {
+  border: solid rgb(29, 33, 224);
+  width:300px;
+  height:20px;
+  padding-top:2px;
+  font-family:'Times New Roman', Times, serif;
+  font-size:17px;
+  text-align:center
+}
+
+</style>
 </head>
-<body>
+<body style="background-color: papayawhip;">
   <h2> Five-in-a-row python game</h2>
-  <p>Download link:  <a href="five-in-a-row.zip">Click here to download</a>
-</p>
- <p>This simple game was created for studying purposes and does not have a AI. You can play by yourself or with a friend and see who is better at the Five-in-a-row game. The game works on mac, windows and raspberrypi.</p>
-  <br>
- <p>
+  <div id="downloadbox">Download link:  <a href="five-in-a-row.zip">Click here to download</a>
+  </div>
+ <div id="intro">This simple game was created for studying purposes and does not have a AI. You can play by yourself or with a friend and see who is better at the Five-in-a-row game. The game works on mac, windows and raspberrypi.</div>
+
   <h3>Features</h3>
-   <ol>
+   <div id="features">
      <li>
        Unfinished games can be saved on a file.
      </li>
@@ -37,12 +88,10 @@
       <li>
         Whoever gets five of the same colored chess in a row will win the game.
      </li>
-  </ol>
-  </p>
+    </div>
   
-  <p>
-  <h4>How to install/run/play the game:</h4>
-  <ol>
+  <h3>How to install/run/play the game:</h3>
+  <div id="howto">
     <li>
       Make sure your computer has python3 installed. (Download at <a href="http://www.python.org">python.org</a>)
     </li>
@@ -55,18 +104,18 @@
     <li>
       When finished with the above procedures, type in the command below to run the game, python3 five_in_a_row.py.
     </li>
-  </ol>
-  </p>
-  <a href="mailto:alexyuan693@foxmail.com">Please send any feedback to this email</a>
-  <br>
-<p>
-<h5>Here is a screenshot of the game on a macOS system</h5></p>
+  </div>
+  <div id="email">
+    <a href="mailto:alexyuan693@foxmail.com">Please send any feedback to this email</a>
+  </div>
+<h3>Here is a screenshot of the game on a macOS system</h3>
   <img src="chessmac.png" alt="Screen shot of the game on macOS" width="750" height="588">
-<p>
-<h5>Here is a screenshot of the game on a windows system</h5></p>
+
+<h3>Here is a screenshot of the game on a windows system</h3>
   <img src="chesswindows.png" alt="Screen shot of the game on windows" width="750" height="854">
-<p>
-<h5>Here is a screenshot of the game on a windows system</h5></p>
+
+<h3>Here is a screenshot of the game on a raspberrypi system</h3>
   <img src="chessraspberry.jpg" alt="Screen shot of the game on raspberrypi" width="1282" height="750">
 </body>
 </html>
+
